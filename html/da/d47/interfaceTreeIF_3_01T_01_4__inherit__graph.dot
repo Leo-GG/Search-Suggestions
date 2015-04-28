@@ -1,0 +1,8 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{TreeIF\< T \>\n|+ PREORDER\l+ POSTORDER\l+ LRBREADTH\l+ RLBREADTH\l|+ getRoot()\l+ setRoot()\l+ getChildren()\l+ addChild()\l+ removeChild()\l+ isLeaf()\l+ isEmpty()\l+ contains()\l+ getIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{TreeDynamic\< T \>\n||+ TreeDynamic()\l+ TreeDynamic()\l+ TreeDynamic()\l+ getRoot()\l+ setRoot()\l+ getChildren()\l+ addChild()\l+ removeChild()\l+ isLeaf()\l+ isEmpty()\l+ contains()\l+ getIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d99/classTreeDynamic_3_01T_01_4.html"];
+}

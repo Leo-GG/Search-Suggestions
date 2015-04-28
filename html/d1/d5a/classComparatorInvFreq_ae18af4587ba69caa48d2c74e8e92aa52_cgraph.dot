@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ComparatorInvFreq.compare",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ComparatorInvFreq.isGreater",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/classComparatorInvFreq.html#a274833a95fbea4b224f33ad8774ba6a4"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Query.getFreq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/ddf/classQuery.html#ab0e010a6f3853a61ca2184eeeb958a9f"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Query.getText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/ddf/classQuery.html#ae939aca03bbd3ce9814e85f59d9350c9"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ComparatorInvFreq.isLess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/classComparatorInvFreq.html#a9599b3bea32c10a228d56e98a3a911fc"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

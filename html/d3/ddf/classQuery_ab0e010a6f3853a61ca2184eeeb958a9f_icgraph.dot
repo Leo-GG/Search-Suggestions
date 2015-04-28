@@ -1,0 +1,41 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Query.getFreq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ComparatorFreq.isLess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/classComparatorFreq.html#a0a78cab4948477cbfe111f8427ec93ec"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ComparatorFreq.compare",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/classComparatorFreq.html#aa806641750cb2876d3bf8b94771fd41e"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ComparatorFreq.isEqual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/classComparatorFreq.html#a42d4f4b3a058a34c2076b79e2508ef00"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ComparatorFreq.isGreater",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/classComparatorFreq.html#afa554000c21bd461fc5e7dbb5e0d51b7"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ComparatorInvFreq.isLess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/classComparatorInvFreq.html#a9599b3bea32c10a228d56e98a3a911fc"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ComparatorInvFreq.compare",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/classComparatorInvFreq.html#ae18af4587ba69caa48d2c74e8e92aa52"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ComparatorInvFreq.isEqual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/classComparatorInvFreq.html#aa94766eeca3e6c767ffcef2feabbea31"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ComparatorInvFreq.isGreater",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/classComparatorInvFreq.html#a274833a95fbea4b224f33ad8774ba6a4"];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="eped2015.printList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/da9/classeped2015.html#a9afff7958a228c4099fdf0cd2f49b1a3"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QueryDepotList.getFreqQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dbb/classQueryDepotList.html#a754d264b9c592ed6164c30e8a2780533"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QueryDepotList.incFreqQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dbb/classQueryDepotList.html#ad395cad92bd8e2a418913f45fe35827f"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QueryDepotList.decFreqQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dbb/classQueryDepotList.html#a4e3f0b8b1e0a2962d85127d4926c9ecc"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QueryDepotTree.incFreqQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d28/classQueryDepotTree.html#ae5f16276affe3481de1aae31f859ce98"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QueryDepotTree.getFreqQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d28/classQueryDepotTree.html#ac7974695ea017eaecf28be0ac5afa775"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QueryDepotTree.listOfQueries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d28/classQueryDepotTree.html#a182f512f10e6f47dc573a950ddcd509e"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="QueryDepotTree.decFreqQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d28/classQueryDepotTree.html#a4890c6c20e6f778a5ddb8f53aa54201f"];
+}

@@ -1,0 +1,25 @@
+var files =
+[
+    [ "ComparatorFreq.java", "d1/d42/ComparatorFreq_8java.html", null ],
+    [ "ComparatorIF.java", "dd/d1f/ComparatorIF_8java.html", null ],
+    [ "ComparatorInvFreq.java", "d0/d2a/ComparatorInvFreq_8java.html", null ],
+    [ "ComparatorLex.java", "dd/df8/ComparatorLex_8java.html", null ],
+    [ "eped2015.java", "d0/dbd/eped2015_8java.html", null ],
+    [ "IteratorIF.java", "df/dd3/IteratorIF_8java.html", null ],
+    [ "ListDynamic.java", "df/d9c/ListDynamic_8java.html", null ],
+    [ "ListIF.java", "d2/d23/ListIF_8java.html", null ],
+    [ "ListIterator.java", "d8/d02/ListIterator_8java.html", null ],
+    [ "Query.java", "d9/d31/Query_8java.html", null ],
+    [ "QueryDepot.java", "df/d19/QueryDepot_8java.html", null ],
+    [ "QueryDepotList.java", "d7/d48/QueryDepotList_8java.html", null ],
+    [ "QueryDepotTree.java", "de/dd0/QueryDepotTree_8java.html", null ],
+    [ "QueueDynamic.java", "d7/d34/QueueDynamic_8java.html", null ],
+    [ "QueueIF.java", "d2/df7/QueueIF_8java.html", null ],
+    [ "QueueIterator.java", "de/daf/QueueIterator_8java.html", null ],
+    [ "StackDynamic.java", "db/d39/StackDynamic_8java.html", null ],
+    [ "StackIF.java", "d8/d64/StackIF_8java.html", null ],
+    [ "StackIterator.java", "d4/d7c/StackIterator_8java.html", null ],
+    [ "TreeDynamic.java", "d7/d8b/TreeDynamic_8java.html", null ],
+    [ "TreeIF.java", "d3/d3b/TreeIF_8java.html", null ],
+    [ "TreeIterator.java", "d9/d8a/TreeIterator_8java.html", null ]
+];

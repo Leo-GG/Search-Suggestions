@@ -1,0 +1,8 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{QueueIF\< T \>\n||+ getFirst()\l+ add()\l+ remove()\l+ isEmpty()\l+ isFull()\l+ getLength()\l+ contains()\l+ getIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{QueueDynamic\< T \>\n||+ QueueDynamic()\l+ QueueDynamic()\l+ QueueDynamic()\l+ getFirst()\l+ add()\l+ remove()\l+ isEmpty()\l+ isFull()\l+ getLength()\l+ contains()\l+ getIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/classQueueDynamic_3_01T_01_4.html"];
+}

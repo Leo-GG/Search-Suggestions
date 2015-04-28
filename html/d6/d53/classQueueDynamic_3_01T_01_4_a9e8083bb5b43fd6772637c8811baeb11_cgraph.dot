@@ -1,0 +1,13 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QueueDynamic\< T \>.QueueDynamic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ListIF\< T \>.isEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df7/interfaceListIF_3_01T_01_4.html#ad1eac6b3951e3b649b603a7954c6349f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ListIF\< T \>.getFirst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df7/interfaceListIF_3_01T_01_4.html#ad601dc974e7757228d84c29c8e156587"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ListIF\< T \>.getTail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df7/interfaceListIF_3_01T_01_4.html#a22083214ef38879294b8998fb4573e55"];
+}

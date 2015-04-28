@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="StackDynamic\< T \>.StackDynamic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="StackIF\< T \>.isEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/ddc/interfaceStackIF_3_01T_01_4.html#afcccc68acffebc6d802460ac08206857"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="StackIF\< T \>.getTop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/ddc/interfaceStackIF_3_01T_01_4.html#a7b36942942b7c7868abd0459e895b31e"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="StackIF\< T \>.pop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/ddc/interfaceStackIF_3_01T_01_4.html#ab8531c7a80fd0f7a12759156c00a1408"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="StackIF\< T \>.push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/ddc/interfaceStackIF_3_01T_01_4.html#ae8410eaa91cc4c54a11f95e6c65d655b"];
+}
