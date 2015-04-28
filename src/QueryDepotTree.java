@@ -39,41 +39,6 @@ public class QueryDepotTree implements QueryDepot{
 	@Override
 	public int numQueries()
 	{
-	/*	int count=0;
-System.out.println("getting Iterator");
-		IteratorIF<Query> listIt = depot.getIterator(0);
-System.out.println("got Iterator");
-		while (listIt.hasNext ()) 
-		{
-			Query element = listIt.getNext();
-			//System.out.println(element.getText());
-			if (element.getFreq()>0)
-			{
-				count++;
-				//System.out.println("Found "+element.getText()+" "+element.getFreq()+" times"); // debug
-			}
-		}
-		return count;
-
-
-		ListIF<TreeIF <Query>> cChildren = depot.getChildren();
-		IteratorIF<TreeIF <Query>> listIt = cChildren.getIterator ();
-
-
-QueueDynamic <TreeIF <Query>> qChildren = 
-					new QueueDynamic <TreeIF <Query>> ();
-
-			qChildren.add(newQueryChildTree);
-
-				cChildren = cNode.getChildren();
-				listIt = cChildren.getIterator();
-
-
-		while (listIt.hasNext () ) 
-		{
-			cNode = (TreeDynamic<Query>)listIt.getNext();
-			
-			qChildren.remove()*/
 		return N;
 	}
 
